@@ -9,8 +9,8 @@ and expose its application via a service for consumption by cloud native applica
 
 
 ### Dependencies
-* [Randonet](github.com/kobutton/randonet) ASP.NET application for IIS on Windows Server
-* [Visualizer](github.com/kobutton/visualizer) Cloud Native Python Application That consumes Randonet data.
+* [Randonet](https://github.com/kobutton/randonet) ASP.NET application for IIS on Windows Server
+* [Visualizer](https://github.com/kobutton/visualizer) Cloud Native Python Application That consumes Randonet data.
 
 ### Instructions
 1. Create the randonet project for this application `oc new-project randonet`
@@ -36,14 +36,3 @@ and expose its application via a service for consumption by cloud native applica
         curl https://raw.githubusercontent.com/kobutton/randonet-openshift/master/randonet-service.yml | oc apply -f - 
 
 7. Follow the install instructions for visualizer (listed in dependencies)
-        
-
-
-
-
-
-
-
-
-
-
