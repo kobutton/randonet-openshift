@@ -62,7 +62,7 @@ objects:
             volumeMode: Filesystem
           source:
             http:
-              url: https://raw.githubusercontent.com/kobutton/randonet-openshift/master/randonet-config.iso
+              url: https://github.com/kobutton/randonet-openshift/raw/master/randonet-config.iso
         status: {}
       - apiVersion: cdi.kubevirt.io/v1alpha1
         kind: DataVolume
